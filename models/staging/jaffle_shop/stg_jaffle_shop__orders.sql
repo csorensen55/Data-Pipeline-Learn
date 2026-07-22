@@ -13,6 +13,7 @@ renamed as (
         user_id as customer_id,
         order_date,
         status as order_status,
+        _etl_loaded_at
 
     from source
 

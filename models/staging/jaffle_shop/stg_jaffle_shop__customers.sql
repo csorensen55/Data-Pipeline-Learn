@@ -14,6 +14,7 @@ renamed as (
         last_name
 
     from source
+    qualify row_number() over (partition by id order by id) = 1
 
 )
 

@@ -5,9 +5,9 @@ sources:
     database: raw  
     schema: jaffle_shop  
     tables:
-      - name: orders
-      
       - name: customers
+      
+      - name: orders
 
   - name: stripe
     database: raw
